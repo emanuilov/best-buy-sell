@@ -1,0 +1,7 @@
+record profitable {
+  buy: float64,
+  sell: float64,
+  profit: float64
+}
+
+maxprofit: func(price: list<float64>) -> list<profitable>
